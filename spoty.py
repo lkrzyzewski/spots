@@ -27,17 +27,16 @@ os.environ["GOOGLE_API_KEY"]  = st.secrets["Gemini_key"]
 
 
 st_auth_file = "auth.yaml"
-afirmacje_file = "afirmacje.txt"
-
 
 info_text ="""
 ***Llama3***  
+Szybki model od Meta
 
 ***GPT4***  
 Dobry model od OpenAI  
 
 ***Gemini***  
-Dobry model od Google  
+Szybki i dobry model od Google  
 
 """
 
